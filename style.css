@@ -49,6 +49,30 @@ nav {
    *  Footer  *
    ************ */
 #footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
   background-color: #282828;
+  color: antiquewhite;
   height: 15vh;
+}
+.song-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.album-cover > img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.song-name span {
+  color: grey;
+}
+.song-info .icons {
+  width: 50px;
+
+  display: flex;
+  justify-content: space-around;
 }
