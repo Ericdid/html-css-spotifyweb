@@ -6,19 +6,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* *********
+   * Debug *
+   ********* */
+.bordered {
+  border: 2px dashed red;
+}
 
 /* **********
    * Layout *
    ********** */
-
-/* ********
-   * Main *
-   ******** */
+.wrapper {
+  display: flex;
+}
 
 /* ***********
    * Sidebar *
    *********** */
 
+nav {
+  width: 300px;
+  height: 85vh;
+  background-color: goldenrod;
+}
+
+/* ********
+   * Main *
+   ******** */
+#main-container {
+  width: calc(100% - 300px);
+  background-color: aqua;
+  display: flex;
+}
+
+.top-badge {
+  background-color: burlywood;
+  width: 100%;
+  height: 80px;
+}
+
 /* ************
    *  Footer  *
    ************ */
+#footer {
+  background-color: #282828;
+  height: 15vh;
+}
