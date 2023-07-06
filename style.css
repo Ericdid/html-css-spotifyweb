@@ -57,7 +57,9 @@ nav {
   color: antiquewhite;
   height: 15vh;
 }
+/* song-info */
 .song-info {
+  height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -70,9 +72,17 @@ nav {
 .song-name span {
   color: grey;
 }
-.song-info .icons {
-  width: 50px;
 
+.fa-folder {
+  margin: 0 5px;
+}
+/* song-controls/progress-bar */
+
+.song-controls {
+  height: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
