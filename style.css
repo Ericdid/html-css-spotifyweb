@@ -20,12 +20,19 @@
 .wrapper {
   display: flex;
 }
+
+/* *********
+   * Utils *
+   ********* */
+
 .hover:hover {
   cursor: pointer;
 }
+
 /* ***********
    * Sidebar *
    *********** */
+
 /* logo */
 #sidebar {
   width: 300px;
