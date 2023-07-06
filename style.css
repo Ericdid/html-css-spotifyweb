@@ -169,3 +169,6 @@
   width: 200px;
   gap: 15px;
 }
+.song-options:hover .progress-dot {
+  display: inline;
+}
