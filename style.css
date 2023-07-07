@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* *********
    * Debug *
@@ -42,6 +42,10 @@
   display: flex;
   flex-direction: column;
 }
+#sidebar:last-child {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 .logo {
   display: flex;
   width: 100%;
@@ -71,13 +75,16 @@
   color: white;
   border-left: 3px solid yellowgreen;
 }
+
+/* playlist */
+
 .list-container {
   width: 100%;
   height: 50%;
+  min-height: 300px;
+  overflow: auto;
   background-color: darkblue;
 }
-
-/* playlist */
 
 .playlist {
   padding-top: 25px;
@@ -104,6 +111,26 @@
   border-left: 2px solid yellowgreen;
   color: white;
 }
+
+.list-container > ul {
+  padding: 15px 25px;
+  list-style: none;
+}
+.list-container li {
+  padding: 10px 0;
+}
+
+.list-container li:hover {
+  color: white;
+  cursor: pointer;
+}
+/* account-info */
+.account-info {
+  background-color: darkred;
+  width: 100%;
+  height: 100px;
+}
+
 /* ********
    * Main *
    ******** */
@@ -155,7 +182,6 @@
   border-bottom: 2px solid white;
 }
 .icons > .fa-folder:hover {
-  font-size: 1.5rem;
   color: white;
 }
 /* song-controls/progress-bar */
