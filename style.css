@@ -287,6 +287,7 @@
 }
 /* song-info */
 .song-info {
+  width: 15%;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -314,6 +315,7 @@
 /* song-controls/progress-bar */
 
 .song-controls {
+  width: 25%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -336,7 +338,7 @@
 .controls-progress {
   display: flex;
   height: 35px;
-  width: 350px;
+  width: 100%;
   align-items: center;
   gap: 5px;
 }
@@ -376,7 +378,7 @@
 .song-options {
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 15%;
   gap: 15px;
 }
 .song-options:hover .progress-dot {
@@ -387,3 +389,7 @@
 .song-options > .max-progress:hover > .current-progress {
   background-color: yellowgreen;
 }
+
+/* **************
+   * RESPONSIVE *
+   **************  */
