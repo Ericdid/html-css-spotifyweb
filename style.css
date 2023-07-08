@@ -213,12 +213,12 @@
   cursor: pointer;
 }
 /* recently played */
-.recently-played {
-  height: 300px;
+.container-player {
+  height: 225px;
 }
 .recently-albums {
   width: 100%;
-  height: 100%;
+  height: 225px;
   padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -226,14 +226,14 @@
   gap: 10px;
 }
 .album {
-  width: 200px;
-  height: 260px;
+  width: 110px;
+  height: 170px;
   display: flex;
   flex-direction: column;
 }
 .album-img {
-  width: 196px;
-  height: 196px;
+  width: 110px;
+  height: 110px;
   position: relative;
 }
 .album-img > img {
@@ -265,6 +265,12 @@
 }
 .album-info > p {
   color: grey;
+}
+
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 350px;
 }
 
 /* ************
