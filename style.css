@@ -378,7 +378,7 @@
 .song-options {
   display: flex;
   align-items: center;
-  width: 15%;
+  min-width: 15%;
   gap: 15px;
 }
 .song-options:hover .progress-dot {
@@ -393,3 +393,48 @@
 /* **************
    * RESPONSIVE *
    **************  */
+
+@media screen and (max-width: 993px) {
+  .container-player > .recently-albums {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container-player > .recently-albums {
+    height: 550px;
+  }
+  .album {
+    width: 115px;
+  }
+  .container-player {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #main-container {
+    width: calc(100vh - 70px);
+  }
+  #sidebar {
+    width: 70px;
+  }
+  #sidebar .logo {
+    padding: 10px;
+  }
+  #sidebar .lg-img {
+    display: none;
+  }
+  #sidebar .hover {
+    padding: 0;
+  }
+  #sidebar .playlist {
+    display: none;
+  }
+  #sidebar .list-container {
+    display: none;
+  }
+  #sidebar .account-info {
+    display: none;
+  }
+}
