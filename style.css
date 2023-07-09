@@ -412,12 +412,12 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   #main-container {
-    width: calc(100vh - 70px);
+    width: calc(100vh - 68px);
   }
   #sidebar {
-    width: 70px;
+    width: 68px;
   }
   #sidebar .logo {
     padding: 10px;
